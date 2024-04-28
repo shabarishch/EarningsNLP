@@ -25,7 +25,7 @@ In this project, we implemented Linear Regression, XGBoost, and Neural Network t
    - Our target variable is ```perc_change_next_prev``` (percentage of stock price changes next day to previous day of earnings call).
  
 ## Modeling Approach
-Strategies implemented and results obtained are summarized below. Metrics used include Mean Squared Error (MSE) and Correlation Coefficients between the actual and predicted values.
+Strategies implemented and results obtained are summarized below. Metrics used include Mean Squared Error (MSE) and Correlation Coefficients between the actual and predicted values. Each strategy was run several times (Linear Regression around 5000 and Neural Networks around 250 times) with different train test splits. This ensures the the results are representative, i.e. that there is low variance.
 - Baseline Model
   - Predicts no change from previous day.
   - ```MSE = 31.16 ```
