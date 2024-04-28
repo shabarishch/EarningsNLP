@@ -13,7 +13,7 @@ Stock prices are hard to predict. One significant factor that influences the sto
 
 In this project, we implemented Linear Regression, XGBoost, and Neural Network to predict percentage changes in stock prices surrounding earnings calls. In particular, we include features we engineered based on sentiment analysis of earnings call transcripts, earnings and revenue data, and stock prices and volume before the earnings call. Based on our predictions, we want to find out factors that affect the stock price movement the day after the most, and devise a simple trading strategy.
 
-We believe our results demonstrate that all of machine learning models are able to detect signals in stock price percentage change after earnings using earnings data. Our models have performed better than baseline models (by a couple of percentage points) with respect to different measures of accuracy, including our simple trading strategy.
+We believe our results show that machine learning models are able to detect signals in stock price percentage change after earnings. Our models have performed better than baseline models (by a couple of percentage points) with respect to different measures of accuracy, including our simple trading strategy.
 
 ## Data Set
 - Our dataset consists of 98 diversified companies from the S&P index with a 6-year earning period. They consist of data related to
